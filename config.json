@@ -1,3 +1,6 @@
 {
-  "a": "b"
+  "Basics": [
+    "Is the design resource centric?",
+    "Does the design leak implementation details?"
+  ]
 }
