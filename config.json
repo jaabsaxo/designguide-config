@@ -1,6 +1,221 @@
 {
   "Basics": [
-    "Is the design resource centric?",
-    "Does the design leak implementation details?"
+    {
+      "q": "Is the design resource centric?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Does the design leak implementation details?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Routes": [
+    {
+      "q": "Does the routes use plurals to represent collections?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are there delimiters and spacers in path?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Is partner only resources in a /partner path?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Http verbs": [
+    {
+      "q": "Do they use the right HTTP verbs?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use POST for getting resources when payload is large or PII data is present?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Relationships and nested resources": [
+    {
+      "q": "Do they expose more than just the ids of related resources?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use field groups to expose linked ressources?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use sub-collections properly?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Datatypes and serialization": [
+    {
+      "q": "Is everything pascal cased?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are property names in nested arrays in plural?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use dates and datetimes right?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Does ids expose any data?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are there any \"bleed\" through of .net data types?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use booleans right?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are they using simple types when they should?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Naming": [
+    {
+      "q": "Are any names redundant?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use the same name for the same thing?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use the type for the same thing?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they return properties without values?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Returning a collection": [
+    {
+      "q": "Do they use the collection envelope properly?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Is pagination offered when it should be?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are they using other than 200 OK or 400 Bad Request?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Returning a resource": [
+    {
+      "q": "Are they using collection envelopes for single resources?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are they using other than 200 OK or 404 Not Found?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Creating a resource": [
+    {
+      "q": "Do they use POST or PUT right?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Are there deadends after creation?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use the right status code?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Updating a resource": [
+    {
+      "q": "Does it make sense to update the entire resource with PUT?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Or should they use Patch instead for an partial update?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use 200 OK, 204 No contenet or 400 Bad Request right?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Streaming": [
+    {
+      "q": "Is streaming initiated with a subscription?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they use the common subscription request model?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Do they provide a snapshot in the subscription response?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Can subscriptions be deleted?",
+      "s": "Not Rated",
+      "c": ""
+    }
+  ],
+  "Visibility and user roles": [
+    {
+      "q": "Does visibility make sense?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Does user roles make sense?",
+      "s": "Not Rated",
+      "c": ""
+    },
+    {
+      "q": "Have they considered market data restrictions?",
+      "s": "Not Rated",
+      "c": ""
+    }
   ]
 }
