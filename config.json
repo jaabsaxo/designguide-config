@@ -1,5 +1,7 @@
 {
-  "Basics": [
+  "Basics":  {
+    "i": 1,
+    "questions": [
     {
       "q": "Is the design resource centric?",
       "s": "Not Rated",
@@ -10,8 +12,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Routes": [
+  ]},
+  "Routes": {
+    "i": 2,
+    "questions": [
     {
       "q": "Does the routes use plurals to represent collections?",
       "s": "Not Rated",
@@ -27,8 +31,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Http verbs": [
+  ]},
+  "Http verbs": {
+    "i": 3,
+    "questions":[
     {
       "q": "Do they use the right HTTP verbs?",
       "s": "Not Rated",
@@ -39,8 +45,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Relationships and nested resources": [
+  ]},
+  "Relationships and nested resources": {
+    "i": 4,
+    "questions":[
     {
       "q": "Do they expose more than just the ids of related resources?",
       "s": "Not Rated",
@@ -56,8 +64,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Datatypes and serialization": [
+  ]},
+  "Datatypes and serialization": {
+    "i": 5,
+    "questions":[
     {
       "q": "Is everything pascal cased?",
       "s": "Not Rated",
@@ -93,8 +103,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Naming": [
+  ]},
+  "Naming": {
+    "i": 6,
+    "questions":[
     {
       "q": "Are any names redundant?",
       "s": "Not Rated",
@@ -115,8 +127,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Returning a collection": [
+  ]},
+  "Returning a collection": {
+    "i": 7,
+    "questions":[
     {
       "q": "Do they use the collection envelope properly?",
       "s": "Not Rated",
@@ -132,8 +146,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Returning a resource": [
+  ]},
+  "Returning a resource": {
+    "i": 8,
+    "questions":[
     {
       "q": "Are they using collection envelopes for single resources?",
       "s": "Not Rated",
@@ -144,8 +160,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Creating a resource": [
+  ]},
+  "Creating a resource": {
+    "i": 9,
+    "questions":[
     {
       "q": "Do they use POST or PUT right?",
       "s": "Not Rated",
@@ -161,8 +179,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Updating a resource": [
+  ]},
+  "Updating a resource": {
+    "i": 10,
+    "questions":[
     {
       "q": "Does it make sense to update the entire resource with PUT?",
       "s": "Not Rated",
@@ -178,8 +198,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Streaming": [
+  ]},
+  "Streaming": {
+    "i": 11,
+    "questions":[
     {
       "q": "Is streaming initiated with a subscription?",
       "s": "Not Rated",
@@ -200,8 +222,10 @@
       "s": "Not Rated",
       "c": ""
     }
-  ],
-  "Visibility and user roles": [
+  ]},
+  "Visibility and user roles": {
+    "i": 12,
+    "questions":[
     {
       "q": "Does visibility make sense?",
       "s": "Not Rated",
@@ -217,5 +241,5 @@
       "s": "Not Rated",
       "c": ""
     }
-  ]
+  ]}
 }
