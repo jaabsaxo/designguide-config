@@ -1,6 +1,6 @@
 {
-  "Basics":  {
-    "i": 1,
+  "1":  {
+    "title": "Basics",
     "questions": [
     {
       "q": "Is the design resource centric?",
@@ -13,8 +13,8 @@
       "c": ""
     }
   ]},
-  "Routes": {
-    "i": 2,
+  "2": {
+    "title": "Routes",
     "questions": [
     {
       "q": "Does the routes use plurals to represent collections?",
@@ -32,8 +32,8 @@
       "c": ""
     }
   ]},
-  "Http verbs": {
-    "i": 3,
+  "3": {
+    "title": "Http verbs",
     "questions":[
     {
       "q": "Do they use the right HTTP verbs?",
@@ -46,8 +46,8 @@
       "c": ""
     }
   ]},
-  "Relationships and nested resources": {
-    "i": 4,
+  "4": {
+    "title": "Relationships and nested resources",
     "questions":[
     {
       "q": "Do they expose more than just the ids of related resources?",
@@ -65,8 +65,8 @@
       "c": ""
     }
   ]},
-  "Datatypes and serialization": {
-    "i": 5,
+  "5": {
+    "title": "Datatypes and serialization",
     "questions":[
     {
       "q": "Is everything pascal cased?",
@@ -104,8 +104,8 @@
       "c": ""
     }
   ]},
-  "Naming": {
-    "i": 6,
+  "6": {
+    "title": "Naming",
     "questions":[
     {
       "q": "Are any names redundant?",
@@ -128,8 +128,8 @@
       "c": ""
     }
   ]},
-  "Returning a collection": {
-    "i": 7,
+  "7": {
+    "title": "Returning a collection",
     "questions":[
     {
       "q": "Do they use the collection envelope properly?",
@@ -147,8 +147,8 @@
       "c": ""
     }
   ]},
-  "Returning a resource": {
-    "i": 8,
+  "8": {
+    "title": "Returning a resource",
     "questions":[
     {
       "q": "Are they using collection envelopes for single resources?",
@@ -161,8 +161,8 @@
       "c": ""
     }
   ]},
-  "Creating a resource": {
-    "i": 9,
+  "9": {
+    "title": "Creating a resource",
     "questions":[
     {
       "q": "Do they use POST or PUT right?",
@@ -180,8 +180,8 @@
       "c": ""
     }
   ]},
-  "Updating a resource": {
-    "i": 10,
+  "10": {
+    "title": "Updating a resource",
     "questions":[
     {
       "q": "Does it make sense to update the entire resource with PUT?",
@@ -199,8 +199,8 @@
       "c": ""
     }
   ]},
-  "Streaming": {
-    "i": 11,
+  "11": {
+    "title": "Streaming",
     "questions":[
     {
       "q": "Is streaming initiated with a subscription?",
@@ -223,8 +223,8 @@
       "c": ""
     }
   ]},
-  "Visibility and user roles": {
-    "i": 12,
+  "12": {
+    "title": "Visibility and user roles",
     "questions":[
     {
       "q": "Does visibility make sense?",
