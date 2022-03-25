@@ -2,6 +2,7 @@
   "Design Basics" : {
     "1":  {
       "title": "Basics",
+      "visibility": 1,
       "questions": [
       {
         "q": "Is the design resource centric?",
@@ -16,6 +17,7 @@
     ]},
     "2": {
       "title": "Routes",
+      "visibility": 1,
       "questions": [
       {
         "q": "Does the routes use plurals to represent collections?",
@@ -35,6 +37,7 @@
     ]},
     "3": {
       "title": "Http verbs",
+      "visibility": 1,
       "questions":[
       {
         "q": "Do they use the right HTTP verbs?",
@@ -49,6 +52,7 @@
     ]},
     "4": {
       "title": "Relationships and nested resources",
+      "visibility": 1,
       "questions":[
       {
         "q": "Do they expose more than just the ids of related resources?",
@@ -68,6 +72,7 @@
     ]},
     "5": {
       "title": "Datatypes and serialization",
+      "visibility": 1,
       "questions":[
       {
         "q": "Is everything pascal cased?",
@@ -107,6 +112,7 @@
     ]},
     "6": {
       "title": "Naming",
+      "visibility": 1,
       "questions":[
       {
         "q": "Are any names redundant?",
@@ -131,6 +137,7 @@
     ]},
     "7": {
       "title": "Returning a collection",
+      "visibility": 1,
       "questions":[
       {
         "q": "Do they use the collection envelope properly?",
@@ -150,6 +157,7 @@
     ]},
     "8": {
       "title": "Returning a resource",
+      "visibility": 1,
       "questions":[
       {
         "q": "Are they using collection envelopes for single resources?",
@@ -164,6 +172,7 @@
     ]},
     "9": {
       "title": "Creating a resource",
+      "visibility": 1,
       "questions":[
       {
         "q": "Do they use POST or PUT right?",
@@ -183,6 +192,7 @@
     ]},
     "10": {
       "title": "Updating a resource",
+      "visibility": 1,
       "questions":[
       {
         "q": "Does it make sense to update the entire resource with PUT?",
@@ -202,6 +212,7 @@
     ]},
     "11": {
       "title": "Streaming",
+      "visibility": 1,
       "questions":[
       {
         "q": "Is streaming initiated with a subscription?",
@@ -226,6 +237,7 @@
     ]},
     "12": {
       "title": "Visibility and user roles",
+      "visibility": 1,
       "questions":[
       {
         "q": "Does visibility make sense?",
@@ -246,17 +258,28 @@
   },
   "Design Consistency" : {
     "1" : {
-      "title" : "Requests",
+      "title" : "Request",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
         "c": ""
       }]
-    }
+    },
+    "2" : {
+      "title" : "Response",
+      "visibility": 1,
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    },
   },
   "Design Usability" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
@@ -267,6 +290,7 @@
   "Documentation" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
@@ -277,6 +301,7 @@
   "Implementation Quality" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
@@ -287,6 +312,7 @@
   "Operational Quality" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
@@ -297,6 +323,7 @@
   "Security" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
@@ -307,6 +334,7 @@
   "Support on SIM" : {
     "1" : {
       "title" : "Requests",
+      "visibility": 1,
       "questions": [{
         "q": "Are they consice?",
         "s": "Not Rated",
