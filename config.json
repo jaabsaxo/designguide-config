@@ -261,10 +261,31 @@
       "title" : "Request",
       "visibility": 1,
       "questions": [{
-        "q": "Are they consice?",
+        "q": "Is it consice and organized?",
         "s": "Not Rated",
         "c": ""
-      }]
+      },
+      {
+        "q": "Is it easy to understand?",
+        "s": "Not Rated",
+        "c": ""
+      },
+      {
+        "q": "Does it look intuitive and easy to use?",
+        "s": "Not Rated",
+        "c": ""
+      },
+      {
+        "q": "Is the access pattern consistent with similar endpoints?",
+        "s": "Not Rated",
+        "c": ""
+      },
+      {
+        "q": "Is anything standing out as unexpected?",
+        "s": "Not Rated",
+        "c": ""
+      }
+    ]
     },
     "2" : {
       "title" : "Response",
