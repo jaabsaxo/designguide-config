@@ -1,5 +1,5 @@
 {
-  "Basics" : {
+  "Design Basics" : {
     "1":  {
       "title": "Basics",
       "questions": [
@@ -253,5 +253,66 @@
         "c": ""
       }]
     }
+  },
+  "Design Usability" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
+  },
+  "Documentation" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
+  },
+  "Implementation Quality" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
+  },
+  "Operational Quality" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
+  },
+  "Security" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
+  },
+  "Support on SIM" : {
+    "1" : {
+      "title" : "Requests",
+      "questions": [{
+        "q": "Are they consice?",
+        "s": "Not Rated",
+        "c": ""
+      }]
+    }
   }
+  
 }
