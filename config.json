@@ -132,7 +132,7 @@
       "title" : "FAQ",
       "questions": [
         "Are there any FAQs covering this API?",
-        "Are they good/helpfull?",
+        "Are they good/helpfull?"
         ]
     },
     "2" : {
@@ -226,5 +226,5 @@
         "Is there any support on SIM?"
         ]
     }
-  }
-}}
+  }}
+}
