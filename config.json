@@ -96,7 +96,7 @@
       "title" : "Request",
       "questions": [
         "Is it consice and organized?",
-        "Is it easy to understand?",
+        "Is it easy to understand why you need to provide these parameters?",
         "Does it look intuitive and easy to use?",
         "Is the access pattern consistent with similar endpoints?",
         "Is anything standing out as unexpected?"
@@ -104,62 +104,126 @@
     "2" : {
       "title" : "Response",
       "questions": [
-        "Are they consice?"
+        "Is it what you expect from the name/description of the endpoint?",
+        "Is it consice and organized?",
+        "Does it look intuitive and easy to use?",
+        "Is the response consistent with similar endpoints?",
+        "Is anything standing out as unexpected?",
+        "Is the naming of parameters consistent with other endpoints?",
+        "Is the naming of parameters consistent with other service groups?",
+        "Is anything standing out as unexpected?",
+        "Is the response consistent with similar endpoints?"
         ]
     }
   }},
   "Design Usability" :{
     "Sections": {
     "1" : {
-      "title" : "Requests",
+      "title" : "General Usability",
       "questions": [
-        "Are they consice?"
+        "Is the design fit for its purpose?",
+        "Is the design easy to use?"
         ]
     }
   }},
   "Documentation" : {
     "Sections": {
     "1" : {
-      "title" : "Requests",
-      "visibility": 1,
+      "title" : "FAQ",
       "questions": [
-        "Are they consice?"
+        "Are there any FAQs covering this API?",
+        "Are they good/helpfull?",
+        ]
+    },
+    "2" : {
+      "title" : "Learn Section",
+      "questions": [
+        "Is there a learn section dedicated to this API?",
+        "Does it include a good description of common use cases/flows?",
+        "Does it include good examples of common use cases/flows?"
+        ]
+    },
+    "3" : {
+      "title" : "Samples on GitHub",
+      "questions": [
+        "Are there dedicated and updated samples to this API?"
+        ]
+    },
+    "4" : {
+      "title" : "Refference Docs",
+      "questions": [
+        "Is the title good?",
+        "Is the description good?",
+        "Are parameter description good?"
         ]
     }
   }},
   "Implementation Quality" : {
     "Sections":{
     "1" : {
-      "title" : "Requests",
+      "title" : "Requests/Response",
       "questions": [
-        "Are they consice?"
+        "Does the implementation match the design?",
+        "Does the API work like expected?"
+        ]
+    },
+    "2" : {
+      "title" : "Errors",
+      "questions": [
+        "Does the API return the right error codes?",
+        "Does the API return properly formatted errors?"
+        ]
+    },
+    "3" : {
+      "title" : "Debugging",
+      "questions": [
+        "Is the API easy to debug?",
+        "Are there appropiate logs with good logging messages?"
         ]
     }
   }},
   "Operational Quality" : {
     "Sections":{
     "1" : {
-      "title" : "Requests",
+      "title" : "SLAs",
       "questions": [
-        "Are they consice?"
+        "Is there a common understanding of what the SLA should be?",
+        "Is there a SLA defined for this endpoint?",
+        "Is there monitoring and uptime monitoring in place?",
+        "Is there a low number of incidents on this endpoint?"
         ]
     }
   }},
   "Security" : {
     "Sections":{
     "1" : {
-      "title" : "Requests",
+      "title" : "Roles/Operations",
       "questions": [
-        "Are they consice?"
+        "Is there a clear definition of roles operation for this endpoint?",
+        "Is this being respected by the API?"
+        ]
+    },
+    "2" : {
+      "title" : "Throttling",
+      "questions": [
+        "Is Throttling enabled?"
+        ]
+    },
+    "3" : {
+      "title" : "Market Data",
+      "questions": [
+        "Does this endpoint need market data restrictions?",
+        "If so: does it have these?",
+        "If so: do they work?"
         ]
     }
   }},
   "Support on SIM" : {
     "Sections":{
     "1" : {
-      "title" : "Requests",
+      "title" : "SIM",
       "questions": [
-        "Are they consice?"
+        "Is there any support on SIM?"
         ]
     }
   }
